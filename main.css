@@ -149,9 +149,10 @@ a{
     border-radius: 10px;
 }
 .portfolio__title{
-    font-size: 24px;
+    font-size: 22px;
     line-height: normal;
     margin-bottom: 5px;
+    text-align: center;
 }
 .portfolio__title a{
     text-decoration: none;
@@ -160,12 +161,13 @@ a{
 
 }
 .portfolio__title a:hover{
-    color: blue ;
-    border-color:rgba(0, 0, 255,0.3) ;
+    color: rgba(115,62,14,0.91) ;
+    border-color: black ;
 }
 .portfolio__text p{
     margin-top: 0px;
     margin-bottom: 15px ;
+    text-align: center;
 }
 /* стили для блока Footer */
 .footer{
