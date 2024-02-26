@@ -44,7 +44,9 @@ a{
 
 }
 /* стили для блока header (шапка)     */
-
+.header img{
+    text-align: right;
+}
 .header{
     background-image: url("img/myrkwood.jpg");
     background-repeat: no-repeat;
