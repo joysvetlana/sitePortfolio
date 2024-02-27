@@ -43,7 +43,7 @@ a{
     margin-right: 0px;
 
 }
-/* стили для блока header (шапка)     */
+/* start style header  */
 .header img{
     text-align: right;
 }
@@ -84,47 +84,8 @@ a{
     bottom: 50px;
     left: 50%;
 }
-/* стили для work1 */
-.portfolio__single-page{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: center;
-}
-.portfolio__single-page img{
-    margin-bottom: 50px;
-    max-width: 100%;
-    width: 900px;
-    height: auto;
-    display: block;
-
-}
-.button-back{
-    font-weight: 700;
-    text-decoration: none;
-    color: #1E90FF;
-    text-transform: uppercase;
-    letter-spacing: 1.6px;
-
-    display: inline-block;
-
-    border-width: 2px;
-    border-color:  #1E90FF;
-    border-style: solid;
-    border-radius: 50px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 23px;
-    padding-right: 23px;
-    margin-bottom: 13px ;
-    transition: 0.2s ease-out;
-}
-.button-back:hover{
-    color: white;
-    background-color:#1E90FF;
-}
-
-
-/* стили для блока Portfolio */
+/* End style header  */
+/* start style block Portfolio */
 .portfolio{
     padding-top: 70px;
     padding-bottom: 100px ;
@@ -169,7 +130,8 @@ a{
     margin-bottom: 15px ;
     text-align: center;
 }
-/* стили для блока Footer */
+/* End style block Portfolio */
+/*  start style Footer */
 .footer{
    background-color:#3d2b22;
     color: burlywood;
@@ -230,9 +192,10 @@ p.footer__social__icons a:hover{
     color: #3d2b22;
     background-color: white;
 }
+/*  end style Footer */
+
        /* MEDIA */
 
-/*При ширене экрана 1160px и меньше- будет выполнен запрос*/
 @media (max-width: 1160px) {
     .container{
         width: 100%;
